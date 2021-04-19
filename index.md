@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## WELCOME TO THE BATCAVE
 
-You can use the [editor on GitHub](https://github.com/CMSgov/batcave-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Imagine starting your software project with a 90% solutiuon around security, continuous monitoring, and scaling on day 1. The BATcave is here to help you move quickly and get to a secure, authorized, production-ready product faster than ever before.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## WHAT CAN THE BATCAVE DO FOR YOU?
 
-### Markdown
+The BATcave helps you get your product into production faster, period. It's a fully deployable software factory that provides users with a number of built-in benefits, from security controls, continuous monitoring, auto-scaling, and self-healing infrastructure that allow you to deploy changes as fast as you can make them.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## WHAT'S IT MADE OF?
 
-```markdown
-Syntax highlighted code block
+The BATcave enterprise platform is made up of several product value streams.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CMSgov/batcave-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Value Stream | What it does for you? | 
+------------ | -------------
+Managed Kubernetes | Container runtime with auto-scaling, monitoring, and security built right in.
+Iron Bank | Pre-certified and hardened containers, ready for use in whatever application you are building.
+Pipeline | A codified, containerized continuous integration and delivery pipeline with security and quality checks built in.
+RAPID | Helping you plan and document the security stack involved in your project, automatically, in plain language. 
+BAT Signal | Kubernetes cluster and pipeline provisioning in any environment to suit your needs.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Have questions? Check out our [documentation](https://...) or [contact us](mailto:batcave@cms.hhs.gov) and we’ll help you out.
