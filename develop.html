@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rapid ATO</title>
+    <script src="assets/uswds-2.11.1/js/uswds-init.min.js"></script>
+    <link rel="stylesheet" href="assets/uswds-2.11.1/css/uswds.min.css" />
+  </head>
+  <body>
+    <script src="assets/uswds-2.11.1/js/uswds.min.js"></script>
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  
+<!--
+    <section class="usa-banner" aria-label="Official government website">
+      <div class="usa-accordion">
+        <header class="usa-banner__header">
+          <div class="usa-banner__inner">
+            <div class="grid-col-auto">
+              <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag">
+            </div>
+            <div class="grid-col-fill tablet:grid-col-auto">
+              <p class="usa-banner__header-text">An official website of the United States government</p>
+              <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+            </div>
+            <button class="usa-accordion__button usa-banner__button"
+              aria-expanded="false" aria-controls="gov-banner">
+              <span class="usa-banner__button-text">Here’s how you know</span>
+            </button>
+          </div>
+        </header>
+        <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+          <div class="grid-row grid-gap-lg">
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>
+                    Official websites use .gov
+    </strong>
+                  <br/>
+                  A <strong>.gov</strong> website belongs to an official government organization in the United States.
+    
+                </p>
+              </div>
+            </div>
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>
+                    Secure .gov websites use HTTPS
+    </strong>
+                  <br/>
+                  A <strong>lock</strong> (
+    <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description" focusable="false"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
+    ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+    
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    -->
+      
+    
+    <div class="usa-overlay"></div>
+    <header class="usa-header usa-header--extended"><div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text"><a href="index.html" title="Home" aria-label="Home">Rapid ATO</a></em>
+      </div>
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+    <nav aria-label="Primary navigation" class="usa-nav">
+        <div class="usa-nav__inner"><button class="usa-nav__close"><img src="/assets/img/usa-icons/close.svg" role="img" alt="close"></button>
+   
+   
+            <ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link  " aria-expanded="false" aria-controls="extended-nav-section-one"><span>ATO Lifecycle</span></button>
+        <ul id="extended-nav-section-one" class="usa-nav__submenu">
+          <li class="usa-nav__submenu-item">
+            <a href="overview.html" class=""> Overview</a>
+          </li>
+          <li class="usa-nav__submenu-item">
+                  <a href="types.html" class=""> Types of ATOs</a>
+                </li><li class="usa-nav__submenu-item">
+                  <a href="#" class=""> Roles</a>
+                </li></ul></li>
+                
+                <li class="usa-nav__primary-item">
+        <button class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="extended-nav-section-two"><span>Phases</span></button>
+        <ul id="extended-nav-section-two" class="usa-nav__submenu">
+         <!-- <li class="usa-nav__submenu-item">
+            <a href="#" class=""> Preparation</a>
+          </li>-->
+          <li class="usa-nav__submenu-item">
+                  <a href="initiate.html" class=""> Initiate</a>
+                </li><li class="usa-nav__submenu-item">
+                  <a href="develop.html" class=""> Develop and Access</a>
+                </li><li class="usa-nav__submenu-item">
+                  <a href="#" class=""> Operate</a>
+                </li>
+                <li class="usa-nav__submenu-item">
+                    <a href="#" class=""> Retire</a>
+                  </li></ul></li>
+
+                  <li class="usa-nav__primary-item">
+                    <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-three"><span>Security</span></button>
+                    <ul id="extended-nav-section-three" class="usa-nav__submenu"><li class="usa-nav__submenu-item">
+                              <a href="#" class=""> General Security Standards</a>
+                            </li><li class="usa-nav__submenu-item">
+                              <a href="#" class="">Incidents</a>
+                            </li></ul></li>
+                  
+
+           
+                  
+                  
+                  <li class="usa-nav__primary-item">
+        <a class="usa-nav__link" href="javascript:void(0)"><span>Resources</span></a>
+        </li></ul><div class="usa-nav__secondary">
+      <ul class="usa-nav__secondary-links"><li class="usa-nav__secondary-item">
+          <a href="">About Rapid ATO</a>
+        </li><li class="usa-nav__secondary-item">
+          <a href="">Contact Us</a>
+        </li></ul><!--<form class="usa-search usa-search--small " role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+      <input class="usa-input" id="extended-search-field-small" type="search" name="search">
+      <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
+    </form>-->
+    </div>
+    </div>
+      </nav>
+    </header>
+    
+    
+      
+    
+    <main id="main-content">
+      
+        <div class="usa-section">
+            <div class="grid-container">
+              <div class="grid-row grid-gap">
+                <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+                  <nav aria-label="Secondary navigation">
+            <ul class="usa-sidenav">
+              
+             <li class="usa-sidenav__item">
+              <a href="types.html" class="usa-current"> Develop and Assess </a>
+
+              <li class="usa-sidenav__item">
+                <a href="#design" class="">Design, Develop and Deploy</a><ul class="usa-sidenav__sublist">
+                <!--<li class="usa-sidenav__item">
+                <a href="">Sub-section</a>
+              </li>-->
+              </ul>
+            </li>
+
+
+            <li class="usa-sidenav__item">
+              <a href="#pen" class="">PenTest</a><ul class="usa-sidenav__sublist">
+              <!--<li class="usa-sidenav__item">
+              <a href="">Sub-section</a>
+            </li>-->
+            </ul>
+          </li>
+
+          <li class="usa-sidenav__item">
+            <a href="#act" class="">ACT</a><ul class="usa-sidenav__sublist">
+            <!--<li class="usa-sidenav__item">
+            <a href="">Sub-section</a>
+          </li>-->
+          </ul>
+        </li>
+
+
+
+        <li class="usa-sidenav__item">
+          <a href="#508" class="">508 Compliance</a><ul class="usa-sidenav__sublist">
+          <!--<li class="usa-sidenav__item">
+          <a href="">Sub-section</a>
+        </li>-->
+        </ul>
+      </li>
+
+                 
+                 
+      <li class="usa-sidenav__item">
+        <a href="#ato" class="">ATO</a><ul class="usa-sidenav__sublist">
+        <!--<li class="usa-sidenav__item">
+        <a href="">Sub-section</a>
+      </li>-->
+      </ul>
+    </li>
+
+
+
+
+          
+                 
+                 
+               
+
+
+           
+            </ul>
+          </nav>
+          
+                </div>
+          
+                <main class="usa-layout-docs__main desktop:grid-col-9 usa-prose usa-layout-docs" id="main-content">
+                  <h1> Develop and Assess the System</h1>
+          
+              
+                  <p>This phase is when the system is actually built, deployed and evaluated for security and compliance. </p>
+                  
+                  <a name="design"></a>
+                  <h2 id="section-heading-h2">Design, Develop and Deploy</h2>
+                  <p>One the system is designed and developed, it is deployed in a non-production environment. It is tested for compliance with requirements and CMS standards. Everything must all comply with CMS Technical Reference Architecture (TRA) and meet security, privacy and accessibility standards before it is production ready. For more information, see the <a href="https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/Downloads/117_Systems_Security_MAC_ARS.pdf">CMS Acceptable Risk Safeguards (ARS)</a>. </p>
+          <p>The TLC requires only a small set of artifacts, and specific methodologies are determined by the Business Owner and team.  All initiatives should follow best practices in development and Program Management.</p>
+          <p>Each project should have a communication plan in place to ensure all parties are in the loop throughout the process. The plan should include all relevant points of contact, including</p>
+          <ul>
+              <li>CRA</li>
+              <li> Business Owner</li>
+              <li>Penetration (Pen) Test Coordinator</li>
+                <li>ISPG Adaptive Capabilities Testing (ACT) team</li>
+                    <li>Information System Security Officer (ISSO)</li>
+                        <li>System Developer and Maintainer (SDM)</li>
+                            <li>ISSO Contracting Support (ISSOCS)</li>
+                                <li>Privacy Subject Matter Expert (PSME)</li>
+
+          </ul>
+                 <p>Once the ISSO and project team set the timing for the PenTest and ACT, the ISSO reaches out to the PenTest team and the ACT team to schedule the assessments. As the team works, the timeline and schedule should be shared with the CRA.</p>
+              
+
+                 <a name="pen"></a>
+                 <h2 id="section-heading-h2">PenTest</h2>
+                 <p>A PenTest helps determine the security of a system by attempting to exploit vulnerabilities. To start the process, the PenTest coordinator will work with the ISSO to fill out an intake form. The PenTest team will then arrange a meeting to discuss the process and inform the ISSO and Business Owner of what to expect. </p>
+                 <p>After the test, the PenTest team will notify the project team of any issues, and the team has a 25-day grace period for mitigation efforts. When the test results are finalized, the PenTest team uploads a completed CAAT spreadsheet to CFACTS and notifies all parties. The CISO mailbox is also notified that the CAAT spreadsheet is complete and available on CFACTS.</p>
+                 <p>To avoid delays, the project should contact a PenTest Coordinator to request the assessment at least 3 months before the ATO deadline. </p>
+
+   <a name="act"></a>
+                 <h2 id="section-heading-h2">ACT</h2>
+                 <p>The ACT program is the risk-based security assessment for CMS systems. To fulfill this requirement, the ISSO will work with the ACT team to create and complete an assessment plan. Once it is complete, the ACT Final Package will also be uploaded to CFACTS. </p>
+                 <p>The project team should also reach out to the ACT team at least 3 months before the ATO deadline to schedule an ACT assessment.</p>
+
+                 <a name="508"></a>
+                 <h2 id="section-heading-h2">508 Compliance</h2>
+                 <p>Section 508 of the Rehabilitation Act requires all federal systems to be accessible to people with disabilities. To ensure the system is accessible to all users, the project team should consider 508 accessibility compliance throughout design, development and deployment. Before sign-off, the system is required to meet all applicable 508 guidelines. </p>
+
+                 <a name="ato"></a>
+                 <h2 id="section-heading-h2">ATO </h2>
+                 <p><b>Phase Requirements</b></p>
+                 <ul>
+                     <li>Identify repository locations for development artifacts</li>
+                     <li>Meet security, privacy, and Section 508 requirements</li>
+                     <li>Update the TLC System Profile entry for the system</li>
+                 </ul>
+
+                </main>
+              </div>
+            </div>
+          </div>
+    </main>
+    
+    <footer class="usa-footer usa-footer--slim">
+        <div class="grid-container usa-footer__return-to-top">
+         <!--- <a href="#">Return to top</a>-->
+        </div>
+        <div class="usa-footer__primary-section">
+          <div class="usa-footer__primary-container grid-row">
+            <div class="mobile-lg:grid-col-8">
+             <!-- <nav class="usa-footer__nav" aria-label="Footer navigation">
+                <ul class="grid-row grid-gap">
+                  <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                    <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
+                  </li>
+                  <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                    <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
+                  </li>
+                  <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                    <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
+                  </li>
+                  <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+                    <a class="usa-footer__primary-link" href="javascript:void(0);">Primary link</a>
+                  </li>
+                </ul>
+              </nav>-->
+            </div>
+            <div class="mobile-lg:grid-col-4">
+              <address class="usa-footer__address">
+                <div class="grid-row grid-gap">
+                  <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+                    <div class="usa-footer__contact-info">
+                      <a href="tel:1-800-555-5555"></a>
+                    </div>
+                  </div>
+                  <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+                    <div class="usa-footer__contact-info">
+                      <a href="mailto:info@agency.gov"></a>
+                    </div>
+                  </div>
+                </div>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="usa-footer__secondary-section">
+          <div class="grid-container">
+            <div class="usa-footer__logo grid-row grid-gap-2">
+              <div class="grid-col-auto">
+                <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="">
+              </div>
+              <div class="grid-col-auto">
+                <p class="usa-footer__logo-heading"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
